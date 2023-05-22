@@ -132,6 +132,8 @@ img {
 
 .menu-container {
   position: fixed;
+  display: flex;
+  flex-direction: column;
   top: 0;
   left: 0;
   width: 100vw;
@@ -171,7 +173,7 @@ img {
 }
 
 .mobile-menu {
-  margin-bottom: 284px;
+  margin-bottom: auto;
 }
 
 .mobile-link {
@@ -224,7 +226,7 @@ img {
 .mobile-socials {
   gap: 56px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 /* 
