@@ -343,9 +343,8 @@ MOBILE MENU
     column-gap: 40px;
   }
 }
-@media screen and (max-width: 1157px) {
-  .mail {
-    padding-top: 16px;
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .item-mail {
     margin-bottom: 12px;
   }
 }
