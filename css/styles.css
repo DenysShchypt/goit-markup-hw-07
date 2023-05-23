@@ -752,8 +752,19 @@ MOBILE MENU
 */
 
 .section-portfolio {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding: 48px 0;
+}
+@media screen and (min-width: min-width 768px) {
+  .section-portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+}
+@media screen and (min-width: min-width 1158px) {
+  .section-portfolio {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
 }
 .filters {
   margin-bottom: 72px;
