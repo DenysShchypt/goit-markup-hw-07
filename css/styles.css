@@ -382,6 +382,7 @@ MOBILE MENU
 */
 
 .hero {
+  max-width: 1440px;
   padding: 112px 0;
   margin: 0 auto;
   text-align: center;
@@ -398,7 +399,7 @@ MOBILE MENU
       url(../images/hero/Dark-bg_mobil@2x.jpg);
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 429px) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/hero/Dark-bg_tablet@1x.jpg);
@@ -410,7 +411,7 @@ MOBILE MENU
     }
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 769px) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/hero/people-office_desktop@1x.jpg);
@@ -1261,7 +1262,7 @@ MOBILE MENU
   border-radius: 4px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   outline: none;
   resize: none;
@@ -1269,7 +1270,8 @@ MOBILE MENU
 }
 
 .form-textarea::placeholder {
-  color: rgba(46, 47, 66, 0.4);
+  color: var(--section1-colorsvg);
+  opacity: 0.5;
 }
 .form-textarea:focus {
   border-color: var(--filters-text-color);
